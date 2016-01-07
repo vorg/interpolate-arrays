@@ -11,7 +11,7 @@ var red   = [255, 0, 0]
 var green = [0, 255, 0]
 var blue  = [0, 0, 255]
 
-var interpolateArrays = lerp([red, green, blue], 0.5)
+var yellow = interpolateArrays([red, green, blue], 0.25); //-> [ 127.5, 127.5, 0 ]
 ```
 
 ## Usage
