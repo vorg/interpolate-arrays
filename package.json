@@ -1,0 +1,28 @@
+{
+  "name": "interpolate-arrays",
+  "version": "1.0.0",
+  "description": "Linear interpolation between multiple arrays",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Marcin Ignac",
+    "email": "marcin.ignac@gmail.com",
+    "url": "https://github.com/vorg"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "interpolation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vorg/interpolate-arrays.git"
+  },
+  "homepage": "https://github.com/vorg/interpolate-arrays",
+  "bugs": {
+    "url": "https://github.com/vorg/interpolate-arrays/issues"
+  }
+}
