@@ -4,6 +4,9 @@ function interpolateArrays(arrays, t) {
     if (t >= 1) {
         return arrays[arrays.length - 1];
     }
+    if (arrays.length == 1) {
+        return arrays[0];
+    }
     var numStops = arrays.length - 1;
     var stopF = t * numStops;
     var stop = Math.floor(stopF);
