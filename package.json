@@ -1,6 +1,6 @@
 {
   "name": "interpolate-arrays",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Linear interpolation between multiple arrays",
   "main": "index.js",
   "license": "MIT",
