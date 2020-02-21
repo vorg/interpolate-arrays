@@ -18,9 +18,9 @@ var yellow = interpolateArrays([red, green, blue], 0.25); //-> [ 127.5, 127.5, 0
 
 [![NPM](https://nodei.co/npm/interpolate-arrays.png)](https://www.npmjs.com/package/interpolate-arrays)
 
-#### `interpolateArrays(arraysList, t)`
+#### `interpolateArrays(arraysList, t[, out])`
 
-Linearly interpolates between all arrays in the `arraysList` using the `t` component.
+Linearly interpolates between all arrays in the `arraysList` using the `t` component. Returns an interpolated array optionally reusing `opt` array to avoid allocation.
 
 ## License
 
